@@ -1,0 +1,3 @@
+displayName = Shoe Slot
+author = stormytuna
+version = 0.1
