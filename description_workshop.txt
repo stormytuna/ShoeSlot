@@ -6,6 +6,10 @@ To report any bugs, message me on discord (stormytuna#2688) or leave a comment o
 
 [b]Changelog[/b]
 [list]
+[*][i]v1.1.0[/i]
+[list]
+[*]Released for 1.4.4
+[/list]
 [*][i]v1.0.1[/i]
 [list]
 [*]Changed vanity slot sprite
