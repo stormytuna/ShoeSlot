@@ -3,3 +3,15 @@ Shoe Slot adds an extra accessory slot for your shoes, or anything you wear on y
 If you're a mod developer creating shoe accessories, see [url=https://github.com/stormytuna/ShoeSlot#mod-call-template]here[/url]
 
 To report any bugs, message me on discord (stormytuna#2688) or leave a comment on the Steam Workshop
+
+[b]Changelog[/b]
+[list]
+[*][i]v1.0.1[/i]
+[list]
+[*]Changed vanity slot sprite
+[/list]
+[*][i]v1.0.0[/i]
+[list]
+[*]Released
+[/list]
+[/list]
