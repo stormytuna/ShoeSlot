@@ -1,30 +1,29 @@
 ﻿using System.Collections.Generic;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ShoeSlot.Common.Systems
+namespace ShoeSlot.Common.Systems;
+
+public class ShoeSystem : ModSystem
 {
-    public class ShoeSystem : ModSystem
-    {
-        public static ShoeSystem Instance => ModContent.GetInstance<ShoeSystem>();
+	public static ShoeSystem Instance => ModContent.GetInstance<ShoeSystem>();
 
-        private static List<int> _shoes = new List<int>();
-        public static List<int> Shoes { get => _shoes; }
+	public static List<int> Shoes { get; } = new();
 
-        public override void PostSetupContent() {
-            foreach (var item in ContentSamples.ItemsByType.Values) {
-                if (item.shoeSlot > 0) {
-                    _shoes.Add(item.type);
-                }
-            }
+	public override void PostSetupContent() {
+		foreach (Item item in ContentSamples.ItemsByType.Values) {
+			if (item.shoeSlot > 0) {
+				Shoes.Add(item.type);
+			}
+		}
 
-            base.PostSetupContent();
-        }
+		base.PostSetupContent();
+	}
 
-        public void RegisterShoe(int type) {
-            if (!_shoes.Contains(type)) {
-                _shoes.Add(type);
-            }
-        }
-    }
+	public void RegisterShoe(int type) {
+		if (!Shoes.Contains(type)) {
+			Shoes.Add(type);
+		}
+	}
 }
