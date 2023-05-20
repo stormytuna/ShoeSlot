@@ -11,8 +11,6 @@ namespace ShoeSlot.Common.UI
 
         public override string FunctionalTexture => "Terraria/Images/Item_" + ItemID.SpectreBoots;
 
-        public override string VanityTexture => "Terraria/Images/Item_" + ItemID.SpectreBoots;
-
         public override bool CanAcceptItem(Item checkItem, AccessorySlotType context) {
             return ShoeSystem.Shoes.Contains(checkItem.type);
         }
