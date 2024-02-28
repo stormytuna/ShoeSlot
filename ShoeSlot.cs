@@ -12,7 +12,15 @@ namespace ShoeSlot
                 return true;
             }
 
-            throw new Exception($"Expected int for args[0] but got {args[0].GetType()} instead");
+            if (args[0] is int[] shoeTypes) {
+                foreach (int shoe in shoeTypes) {
+                    ShoeSystem.Instance.RegisterShoe(shoe);
+                }
+
+                return true;
+            }
+
+            throw new Exception($"Expected int or int[] for args[0] but got {args[0].GetType()} instead");
         }
     }
 }
