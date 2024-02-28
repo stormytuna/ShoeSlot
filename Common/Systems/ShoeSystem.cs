@@ -39,5 +39,10 @@ namespace ShoeSlot.Common.Systems
                 RegisterShoe(item.Type);
             }
         }
+
+        public override void Unload() {
+            _shoes.Clear();
+            _shoes = null;
+        }
     }
 }
