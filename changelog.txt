@@ -1,0 +1,14 @@
+v1.1.1
+
+- Workshop description refresh
+- Updated icon
+
+Old changelogs:
+
+v1.1.0
+
+- Added manual support for popular modded shoes (Calamity's Tracer line, Fargo's Souls Zephyr Boots)
+
+v1.0.1
+
+- Changed vanity slot sprite

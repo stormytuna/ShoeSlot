@@ -1,21 +1,9 @@
 Shoe Slot adds an extra accessory slot for your shoes, or anything you wear on your feet really!
 
-If you're a mod developer creating shoe accessories, see [url=https://github.com/stormytuna/ShoeSlot#mod-call-template]here[/url]
+[hr][/hr]
 
-To report any bugs, leave a comment on the Steam Workshop
+Source code: https://github.com/stormytuna/ShoeSlot
 
-[b]Changelog[/b]
-[list]
-[*][i]v1.1.0[/i]
-[list]
-[*]Added manual support for some popular modded shoes (Calamity's Tracer line, Fargo's Souls Zephyr Boots)
-[/list]
-[*][i]v1.0.1[/i]
-[list]
-[*]Changed vanity slot sprite
-[/list]
-[*][i]v1.0.0[/i]
-[list]
-[*]Released
-[/list]
-[/list]
+Join the [url=https://discord.gg/yr3hUxUxpg]discord server![/url]
+
+If you enjoy my work, [url=https://ko-fi.com/stormytuna]please consider donating[/url]
