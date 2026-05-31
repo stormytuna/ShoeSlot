@@ -2,6 +2,12 @@ Shoe Slot adds an extra accessory slot for your shoes, or anything you wear on y
 
 [hr][/hr]
 
+Please pester other mod developers for compatibility!
+
+Mod call template: https://github.com/stormytuna/ShoeSlot#mod-call-template
+
+[hr][/hr]
+
 Source code: https://github.com/stormytuna/ShoeSlot
 
 Join the [url=https://discord.gg/yr3hUxUxpg]discord server![/url]
