@@ -21,6 +21,8 @@ namespace ShoeSlot.Common.Systems
             // Manually adding some popular modded boots that don't work
             TryRegisterShoe("CalamityMod/AngelTreads");
             TryRegisterShoe("CalamityMod/SeraphTracers");
+            TryRegisterShoe("CalamityMod/TracersElysian");
+            TryRegisterShoe("CalamityMod/TracersCelestial");
             TryRegisterShoe("FargowiltasSouls/ZephyrBoots");
             TryRegisterShoe("FargowiltasSouls/SupersonicSoul");
 
